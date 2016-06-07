@@ -1,0 +1,15 @@
+{
+  "name": "rblove",
+  "version": "1.0.0",
+  "description": "RBTV Chat Metrics",
+  "main": "main.js",
+  "dependencies": {
+    "measured": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DoomDesign",
+  "license": "ISC"
+}
