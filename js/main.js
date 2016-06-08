@@ -1,12 +1,8 @@
 /***************************************************/
+/************* CUSTOM SCRIPT START *****************/
 /***************************************************/
-/*********** WER DAS LIEST, IST DOOF! **************/
+/*************** RocketBeansTV <3 ******************/
 /***************************************************/
-/***************************************************/
-/************** (oder ein Nerd!) :) ****************/
-/***************************************************/
-/***************************************************/
-
 
 
 function initBarometer() {
@@ -323,7 +319,7 @@ function initBarometer() {
 					speedsubtract = 4;
 				}
 				
-				document.getElementById('cutoffrect').style.height = 100 -  heightsubtract + '%';
+				document.getElementById('cutoffrect').setAttribute('height', 100 -  heightsubtract + '%');
 				document.getElementById('heart').style.animationDuration = 5 -  speedsubtract + 's';
 			
 			}
