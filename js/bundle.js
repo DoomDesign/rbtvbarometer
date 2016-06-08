@@ -720,7 +720,7 @@ function initBarometer() {
 					speedsubtract = 4;
 				}
 				
-				document.getElementById('cutoffrect').style.height = 100 -  heightsubtract + '%';
+				document.getElementById('cutoffrect').setAttribute('height', 100 -  heightsubtract + '%');
 				document.getElementById('heart').style.animationDuration = 5 -  speedsubtract + 's';
 			
 			}
