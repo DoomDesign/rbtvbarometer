@@ -1,3 +1,6 @@
+var Promise = require('es6-promise').Promise;
+var Measured = require('measured').createCollection();
+
 /***************************************************/
 /************* CUSTOM SCRIPT START *****************/
 /***************************************************/
@@ -12,7 +15,7 @@ function initBarometer() {
 	var container = document.getElementById('container');
 	var emoticoncontainer = document.getElementById('emoticoncontainer');
 
-	var Measured = require('measured').createCollection();
+	
 
 	var meterOptions = {
 		
