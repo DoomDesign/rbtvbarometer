@@ -2,6 +2,8 @@
 
 A rough-and-dirty experiment to read a twitch chat in realtime, searching each incoming message for a predefined set of emoticons, and if found, a measuring event is triggered and displayed on the screen.
 
+[Live Version on GithubPages](http://doomdesign.github.io/rbtvbarometer/)
+
 ***
 
 If you want to tinker and play with it:
